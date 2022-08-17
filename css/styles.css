@@ -293,6 +293,10 @@ a.heder-portfolio {
 
 /*--------------------------------------------- aktiviti -----------------*/
 
+.section-aktiviti {
+  padding-top: 0;
+}
+
 .aktiviti-list {
   display: flex;
   margin-left: auto;
@@ -312,9 +316,17 @@ a.heder-portfolio {
   margin-bottom: 50px;
 }
 
-.section-aktiviti {
-  padding-top: 0;
+.aktiviti-after-title {
+  font-weight: 700;
+font-size: 14px;
+line-height: calc(16/14);
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-light-color);
 }
+
+
 
 /*---------------------------------------------- team --------------------*/
 
