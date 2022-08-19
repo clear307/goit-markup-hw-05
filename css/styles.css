@@ -162,6 +162,34 @@ a.heder-portfolio {
   color: var(--accent-color);
 }
 
+.heder-item {
+  position: relative;
+}
+
+a.heder-studia::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+  display: block;
+  bottom: -1px;
+  left: 0;
+  position: absolute;
+}
+
+a.heder-portfolio::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background: var(--accent-color);
+  border-radius: 2px;
+  display: block;
+  bottom: -1px;
+  left: 0;
+  position: absolute;
+}
+
 /* align-items: center;
   justify-content: center;
   align-content: center; */
