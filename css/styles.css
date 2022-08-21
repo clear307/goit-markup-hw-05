@@ -132,14 +132,6 @@ margin-right: 50px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.heder-email::before {
-  content: "";
-}
-
-.heder-tel::before {
-  content: "";
-}
-
 .email-icon,
 .tel-icon {
   fill: currentColor;
